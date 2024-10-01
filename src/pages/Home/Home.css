@@ -1,0 +1,53 @@
+.home-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+  
+.home-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('homePic.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px);
+  z-index: -1; /* Put it behind the text */
+}
+  
+.home-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+}
+  
+.home-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+  
+.home-content p {
+  font-size: 1.2rem;
+  max-width: 600px;
+}
+
+.cta-button {
+  background: #e94e77;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.cta-button:hover {
+  background: #d43f5f;
+}
