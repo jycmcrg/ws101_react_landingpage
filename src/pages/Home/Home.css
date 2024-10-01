@@ -38,16 +38,3 @@
   font-size: 1.2rem;
   max-width: 600px;
 }
-
-.cta-button {
-  background: #e94e77;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-.cta-button:hover {
-  background: #d43f5f;
-}
